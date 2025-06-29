@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="..//index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="articles.html">Articles</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contacts.html">Contact Us</a>
+        </nav>
+    </header>
+    <div>
+        <h1>Зворотний зв’язок</h1>
+        <p>Ми завжди раді вашим питанням, відгукам та пропозиціям. Заповніть форму нижче — і ми обов’язково зв’яжемося з
+            вами
+            найближчим часом.</p>
+        <h2>Форма зворотного зв’язку</h2>
+        <form method="post">
+            <fieldset>
+                <legend>Особиста інформація</legend>
+
+                <div class="form">
+                    <label for="name">Ваше ім'я*:</label>
+                    <input class="row" type="text" id="name" name="name">
+                </div>
+
+                <div class="form">
+                    <label for="email">Електронна пошта*:</label>
+                    <input class="row" type="email" id="email" name="email">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Звернення</legend>
+
+                <div class="form">
+                    <label for="subjectappeal">Тема звернення*</label>
+                    <select name="subjectappeal" id="subjectappeal">
+                        <option value="question">Запитання</option>
+                        <option value="cooperation">Співпраця</option>
+                        <option value="mistake">Помилка на сайті</option>
+                        <option value="other">Інше</option>
+                    </select>
+                </div>
+
+                <div class="form">
+                    <label for="message">Ваше повідомлення*:</label>
+                    <textarea id="message" name="message" rows="4" cols="50">
+                    </textarea>
+                </div>
+            </fieldset>
+
+            <div class="form">
+                <input type="checkbox" name="subscribe"> Я погоджуюсь на обробку персональних даних
+            </div>
+
+            <div class="aright">
+                <input type="submit" value="Надіслати">
+            </div>
+
+        </form>
+
+        <p>А також ви можете написати нам безпосередньо:<br>
+            Email: info@osvita-example.com<br>
+            Телефон: +38 (099) 123-45-67<br>
+            Адреса: м. Київ, вул. Освітня, 10<br>
+            Соцмережі: [Facebook] | [Instagram] | [Telegram]</p>
+
+    </div>
+</body>
+
+</html>
